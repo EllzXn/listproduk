@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+.filter {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Grid Produk */
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover Animasi */
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #1ebd5b;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+    .product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 14px;
+    background: #25d36530;
+    border-radius: 10px;
+}

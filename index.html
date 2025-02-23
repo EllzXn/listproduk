@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Produk Unif TDH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🛒 Daftar Produk</h1>
+    </header>
+
+    <!-- Dropdown Filter -->
+    <div class="filter">
+        <label for="category">Filter Kategori:</label>
+        <select id="category">
+            <option value="all">Semua</option>
+            <option value="free">Gratis</option>
+            <option value="special">Khusus</option>
+        </select>
+    </div>
+
+    <div class="product-list">
+        <div class="product special">
+            <img src="./gambar/unifkhusus.png" alt="Produk 1">
+            <h2>Unif Khusus V1</h2>
+            <p class="price">💰 5.BS</p>
+            <a href="https://wa.me/62882019632673?text=Halo+bang,+saya+mau+beli+*Unif+Khusus+V1*" class="btn">Beli via WhatsApp</a>
+        </div>
+
+        <div class="product free">
+            <img src="./gambar/unifmember.png" alt="Produk 2">
+            <h2>Unif Member</h2>
+            <p class="price">💰 Gratis</p>
+            <a href="https://docs.google.com/document/d/1ZgLGl4Yy_j-AeFEARfGTtngo3SjahQeZ8R-hpVaQgKc/edit?usp=drivesdk" class="btn">Dapatkan sekarang</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; EllzXn - 2025 | Dibuat dengan ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
